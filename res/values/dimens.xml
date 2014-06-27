@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--File Chooser-->
+    <dimen name="list_padding">0dp</dimen>
+	<dimen name="list_item_padding">6dp</dimen>
+	<dimen name="listView">5dip</dimen>
+
+</resources>

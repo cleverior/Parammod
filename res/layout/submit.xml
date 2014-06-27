@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/ljudul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ljudul" />
+
+            <EditText
+                android:id="@+id/judul"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:singleLine="false" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/lpembuat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lpembuat" />
+
+            <EditText
+                android:id="@+id/pembuat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:singleLine="false" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/llink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/link" />
+
+            <EditText
+                android:id="@+id/link"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textWebEditText"
+                android:singleLine="false" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/lprev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prev" />
+
+            <EditText
+                android:id="@+id/prev"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textWebEditText"
+                android:singleLine="false" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
